@@ -7,6 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+Add-Content .gitignore "`n# 3D assets (too large for Git)"
+Add-Content .gitignore "public/models/*.glb"
+Add-Content .gitignore "public/models/*.enc"
+Add-Content .gitignore "public/models/*.hdr"
+
+
 node_modules
 dist
 dist-ssr
